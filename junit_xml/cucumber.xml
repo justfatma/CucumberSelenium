@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="182.090374">
+    <testcase classname="Free CRM Create-Read-Update-Delete Contract" name="Free CRM CRUD contact scenario" time="51.384354">
+        <system-out>
+            <![CDATA[Given cont user is on CRM Page..............................................passed
+When cont title of login page is Free CRM customer relationship.............passed
+Then cont user clicks on sign in button.....................................passed
+Then cont user enters "tasatan@gmail.com" and "Fatma3112"...................passed
+Then cont user clicks on login..............................................passed
+Then cont user logs in......................................................passed
+Then cont user moves to new contact page....................................passed
+Then cont user enters contact details "John" and "Pitt".....................passed
+Then cont user is on new contacts page "John" and "Pitt"....................passed
+Then cont user clicks update button.........................................passed
+Then cont user updates contact details "QA Engineer" and "Information Technology".passed
+Then cont user click save button............................................passed
+Then cont user views updated info "QA Engineer" and "Information Technology".passed
+Then cont user delete user..................................................passed
+Then cont user close the browser............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Free CRM Create-Read-Update-Delete Deal" name="Free CRM CRUD deal scenario" time="45.76229">
+        <system-out>
+            <![CDATA[Given deals user is on CRM Page.............................................passed
+When deals title of login page is Free CRM customer relationship............passed
+Then deals user clicks on sign in button....................................passed
+Then deals user enters username and password................................passed
+Then deals user clicks on login.............................................passed
+Then deals user logs in.....................................................passed
+Then deals user moves to new deal page......................................passed
+Then deals user enters deal details and click save..........................passed
+Then deals user clicks update button........................................passed
+Then deals user updates deal details........................................passed
+Then deals user click save button...........................................passed
+Then deals user views updated info..........................................passed
+Then deals user delete deal.................................................passed
+Then deals user close the browser...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Deal data creation with map" name="Free CRM Create a new deal scenario" time="51.080207">
+        <system-out>
+            <![CDATA[Given map deals user is on CRM Page.........................................passed
+When map deals title of login page is Free CRM customer relationship........passed
+Then map deals user clicks on sign in button................................passed
+Then map deals user enters username and password............................passed
+Then map deals user clicks on login.........................................passed
+Then map deals user logs in.................................................passed
+Then map deals user moves to new deal page..................................passed
+Then map deals user enters deal details and click save......................passed
+Then map deals user click deals.............................................passed
+Then map deals user click select all........................................passed
+Then map deals user click actions and select delete.........................passed
+Then map deals user delete deals............................................passed
+Then map deals user close the browser.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Free CRM Login Feature" name="Free CRM Login Test Scenario" time="33.863523">
+        <system-out>
+            <![CDATA[Given user is on CRM Page...................................................passed
+When title of login page is Free CRM customer relationship..................passed
+Then user clicks on sign in button..........................................passed
+Then user enters "tasatan@gmail.com" and "Fatma3112"........................passed
+Then user clicks on login...................................................passed
+Then user logs in...........................................................passed
+Then Close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

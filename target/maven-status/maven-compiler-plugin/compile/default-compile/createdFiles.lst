@@ -1,0 +1,8 @@
+stepDefinitions\LoginStepDefinition.class
+stepDefinitions\DealsCRUDStepDefinition.class
+stepDefinitions\ContactsCRUDStepDefinition.class
+MyRunner\TestRunner.class
+stepDefinitions\TaggingStepDefinition.class
+stepDefinitions\DealsStepWithMapDefinition.class
+stepDefinitions\TaggedHooksStepDefinition.class
+stepDefinitions\HooksStepDefinition.class
